@@ -1,32 +1,198 @@
-  <!-- TO RUN IN BROWSER:
+<!-- TO RUN IN BROWSER:
     1. Install vscode extension Name: open in `browser open-in-browser` by TechER
     2. Right click html file and either run in default browser or another browser
   -->
-
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML/CSS Studio</title>
+    <title>Responsive Redesign Report</title>
     <!-- import CSS styles -->
-    <link rel="stylesheet" href="styles.css" /> 
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <!-- page content goes into <body> -->
   <body>
     <div id="logoBar">
-      <h1>Welcome to 100 Acre Wood!</h1>
-      <img id="siteLogo" alt="Pooh-bear site logo" src="./assets/Header.png"/>
-      <h3>We're glad you're here :D</h3>
+      <h1>Responsive Redesign Assignment!</h1>
+      <h3>:D</h3>
     </div>
-    <hr/>
-    <div id="staffGallery">
-      <img class="galleryImage" src="./assets/Eeyore-Eh.png"/>
-      <img class="galleryImage" src="./assets/Eeyore-Zz.png"/>
-      <img class="galleryImage" src="./assets/Kanga-Roo.png"/>
-      <img class="galleryImage" src="./assets/Owl-Phone.png"/>
+    <hr />
+    <div id="Overview">
+      <h1>Overview</h1>
+      <p>
+        Imagine you're in a small town and you work for the local government.
+        You want your community to have easy access to resources that they might
+        need. Such as paying their bills, or registering to become a member of
+        the local Native American tribe. The current website is currently hard
+        for people to navigate, and sometimes read. While it has all the
+        information it isn't very accessible and doesn't have high contrast in
+        some parts of the website. There's also a huge problem where its
+        unaccessible on a moblie device, or a tablet.
+      </p>
+      <p>
+        I chose to redesign the Menominee Indian Tribe's website because one of
+        the huge issues they had was that their website was not responsive.
+        Resizing even the web browser caused problems as text started to
+        overlap. There were also some problems with contrast, or some design
+        aspects that just didn't make sense. I hoped to better this design,
+        hopefully make it a bit more cohesive, and a bit easier to navigate. The
+        link to the website can be found
+        <a href="https://www.menominee-nsn.gov/">here!</a>
+        and the link to the redesigned website can be found
+        <a href="https://sydneymeza.github.io/ResponsiveRedesign/">here!</a>
+      </p>
+    </div>
+    <div id="part1">
+      <h1>Usability Issues</h1>
+      <p>
+        While searching for websites to redesign, I knew that Native American
+        tribes would most likely not have the best designers. While I was
+        surprised by some tribal sites having well designed websites there were
+        many that did not. It's important to upkeep these sites because the
+        people in the tribe still need current access to the resources that are
+        available.
+      </p>
+      <div class="photos">
+        <img alt="image of the Menominee website in the full desktop screen only contrast and some other design choices look off" src="/assets/site.jpg">
+      </div>
+      <p>
+        The first problem that stuck out to me was that the website wasn't
+        responsive. Simply resizing the browser caused the text to overlap, or a
+        photo to block the entire page. Another flaw I noticed was that there
+        were two nav bars. I thought that they were both necessary, but the way
+        that the nav bars were stacked on top of each other was a bit unnerving
+        and not very intuitive to use, and I was confused as to which nav bar
+        would have the information that I wanted. It didn't have a clear
+        hierarchy. Throughout the page I was a bit confused on what I could or
+        couldn't click, and I was even surprised by a button.
+      </p>
+      <div class="photos">
+        <img alt="image of the Menominee website this time the browser window shrunken so that test is overlapping the whole navbar cannot be accessed" src="/assets/not_responsive_sc.jpg">
+      </div>      
+      <p>
+        As I inspected the code I also noticed that there wasn't an alt tag for
+        any of the photos on the website, thus making it not very screenreader
+        friendly. The website did use HTML tags, which is important, and I'm
+        glad that they did. Based on these problems, I knew that I could fix a
+        few of them to make the website a bit more user friendly.
+      </p>
+    </div>
+    <div id="part2">
+      <h1>Visual Redesign</h1>
+      <p>
+        To redesign this website I first started by speed sketching nine
+        different ideas, I took about a minute for each skecth. I struggled a
+        bit with this activity, but I did learn from it. I found that I was
+        constantly getting stuck at the beginning, and a little bit at the end,
+        but with I was sketching the middle sketches I found myself exploring
+        other ideas even if they weren't the more user friendly, or if they
+        didn't make sense at all. At least it was an idea. By the end of it I
+        did enjoy the sketching, and I also enjoyed creating my final sketch
+        from these speed sketches. I tried to take all my best ideas to redesign
+        the website.
+      </p>
+      <div class="photos">
+        <img alt="image of a regular white paper that has been folded into 9 squares. It has a different sketch in red pen on each square, some designs are more similar to each other than others." src="/assets/nine_sketches.jpg">
+        <img alt="image of a handdrawn final sketch. It is messy but a more well thought out idea than the sketches" src="/assets/final_sketch.jpg">
+      </div>
+      <p>
+        After making my final sketch I started on wireframing. I didn't really
+        struggle with this, so I know that there is room for improvement. They
+        look quite, rough, but they are low fidelity sketches. I found myself
+        really being able to sit down and think about each screen that I was
+        designing for. I know that it took me a bit of time to decide how each
+        screen size should look, especially because before this excersize I
+        didn't really pay attention to the actual size difference between a
+        tablet and a desktop. I've always just imagined the tablet to be a
+        slightly scaled down version of a desktop, but it's really not. I know
+        that this information will help me as I continue to creat more
+        interfaces.
+      </p>
+      <div class="photos">
+        <img alt="image of a handdrawn desktop wireframe. It is a bit messy but the idea is able to be understood."src="/assets/desktop_wireframe.jpg">
+        <img alt="image of a handdrawn tablet wireframe. It is a bit messy but the idea is able to be understood."src="/assets/tablet_wireframe.jpg">
+        <img alt="image of a handdrawn phone wireframe. It is a bit messy but the idea is able to be understood."src="/assets/phone_wireframe.jpg">
+      </div>
+      <p>
+        It was a bit difficult to create the Style Guide for this website. I
+        knew what colors I would like to use, but I was afraid that the contrast
+        would not be the best. I was able to use AudioEye online to help see
+        which colors would be worse to use, and I hope that overall the contrast
+        with the new website isn't terrible. I also had a lot of fun creating
+        this style guide. I thought it was very fun creating elements that I
+        could use in my website, and just playing around on Figma. I have grown
+        to enjoy Figma a lot, and hope to always get better at using it. I think
+        that I may have not included everything in the Style Guide because the
+        website page I chose didn't use that many. I didn't include variations
+        of italics, different font weights, and I wasn't able to create many
+        icons because the page I chose didn't use them.
+      </p>
+      <div class="photos">
+        <img alt="a screenshot of a Figma frame. There are 6 colors, all various shades of green and blue. There are multiple iterations of buttons, how text should look, and how certain dropdown menu's/navbars would look." src="/assets/style_guide.jpg">
+      </div>
+      <p>
+        Creating the High Fideltiy Mockups was my favorite part of the
+        assignment. I was really able to put my figma skills to use. I think
+        that using Figma is my favorite way to actually get my ideas out into
+        the world. While creating my mockups I did find that I would have to
+        change some parts of my style guide, I also found that I wanted to
+        change some things from my wireframes. I felt like this was the last
+        chance to make any huge changes, and while I didn't make any too drastic
+        changes, I didn't change a few things, which I am happy that I did
+        before working on the actual redesign.
+      </p>
+      <div class="photos">
+        <img alt="screenshot of figma prototype of a laptop there is a high fidelity screen that is a mockup of what the webiste should have looked like." src="/assets/laptop_mockup.jpg">
+        <img alt="screenshot of figma prototype of a tablet there is a high fidelity screen that is a mockup of what the webiste should have looked like."src="/assets/tablet_mockup.jpg">
+        <img alt="screenshot of figma prototype of a phone there is a high fidelity screen that is a mockup of what the webiste should have looked like."src="/assets/phone_mockup.jpg">
+      </div>
+    </div>
+    <div id="part3">
+      <h1>Responsive Redesign</h1>
+      <p>
+        I enjoyed using CSS and HTML to make the website, but I did run into
+        some problems, or setbacks, when I was actually coding the site. I
+        wanted to do more than what I could actually code. I have past
+        experience with CSS, but as I was looking at my designs I knew that I
+        would have to consult the internet for help. This learning process was
+        very helpful because I learned more about CSS and the different
+        properties that I can change with CSS. I also found it a bit frustrating
+        not being able to figure out some bugs. Overall I think that I had a
+        great experience with redesigning the website. I think some issues that
+        I wasn't totally able to get rid of include the buttons not being
+        totally responsive, and I believe that there might be some contrast
+        errors. I had hoped to not have any contrast errors, but it seems that
+        some colors were not caught with the online sources I used. I know that
+        I could have also used a better way to have the text be responsive. I
+        felt like I didn't do it correctly, or I did some of it correctly but I
+        forgot to change other font sizes.
+      </p>
+      <div class="photos">
+        <img src="/assets/redesign_sc.jpg" alt="screenshot of the redesigned page!">
+      </div>
+
+      <p>
+        Some of the most important parts of my redesign include using consisten
+        colors, and consistent fonts. I made it so that there is one clear
+        important navigation bar that provides some hierarchy. It helps that its
+        a sticky navbar, or it stays on the page no matter where the user
+        scrolls. I also did help the website become more responsive because the
+        tablet and phone screens have changed and will automatically resize as a
+        user switches screens.
+      </p>
+    </div>
+    <div>
+      <h1>Conclustion</h1>
+      <p>
+        I feel like I learned a lot from this project. I was able to get a lot
+        of practice using Figma, and I was also able to practice my CSS skills.
+        I fear that I have a long way to go to be proficient at using CSS, but I
+        hope that in the future I will be able to have cleaner code that is
+        easier to read. Again, my redesign can be found <a href="https://sydneymeza.github.io/ResponsiveRedesign/">here!</a>
+        And the original can be found <a href="https://www.menominee-nsn.gov/">here!</a>
+      </p>
     </div>
   </body>
-
 </html>
